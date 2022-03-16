@@ -46,14 +46,14 @@ function verificaPrimo() {
     // verifica se o numero digitado é primo
     if (primo(num)) {
         mens = "O número " + (num) + " é primo";        
-    } 
+        } 
     else {
         mens = "O número " + (num) + " não é primo";
-    }
+        }
     document.getElementById("result").innerHTML = mens;
 }
 
 else{
- document.getElementById("result").innerHTML = "Erro, digite um numero";
+ document.getElementById("result").innerHTML = "Erro, digite um número válido!";
 }
 }
